@@ -63,10 +63,6 @@ Project structure (important files)
 - Role: Frontend developer — implemented a responsive SPA using React + Vite, componentized the UI, integrated third-party form provider, and prepared the project for Vercel deployment.
 - Impact: Lightweight Vite build, clean component separation, and ready-to-deploy configuration.
 
-If you want, I can also:
-
-- Rename `Pragram.css` to `Program.css` to fix the typo and update imports.
-- Replace the hard-coded Web3Forms key with `import.meta.env.VITE_WEB3FORMS_KEY` in `src/Component/Contact/Contact.jsx` and add deployment steps for Vercel.
 
 License
 
