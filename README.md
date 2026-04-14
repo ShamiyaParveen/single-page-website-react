@@ -1,69 +1,79 @@
-# Single-page University Landing — React + Vite
+# 🌐 Single Page Website (React + Vite)
 
-- Responsive single-page landing template for a university/college built with React and Vite.
-- Componentized layout including Hero, Programs, Gallery, Testimonials, Contact (Web3Forms) and a Video modal.
+A fast and responsive single-page application built using React and Vite. The project focuses on clean UI, reusable components, and modern frontend practices.
 
-Key highlights
+🔗 Live Demo: https://single-page-website-react.vercel.app/  
+💻 GitHub: https://github.com/ShamiyaParveen  
 
-- Built a fast, production-ready SPA using Vite and React.
-- Component-first structure for easy re-use and customization.
-- Integrated Web3Forms for form submissions (serverless) and a video modal for media content.
-- Accessibility and responsive styles across desktop and mobile.
+---
 
-Tech stack
+## 🚀 Features
 
-- React 19, Vite, CSS modules (local styles per component)
-- Dev tooling: ESLint, Vite dev server
+- ⚡ Built a fast, production-ready SPA using React and Vite  
+- 🧩 Component-first architecture for reusability and scalability  
+- 📩 Integrated Web3Forms for serverless form submissions  
+- 🎥 Video modal implementation for interactive media content  
+- 📱 Fully responsive design (mobile & desktop)  
+- ♿ Basic accessibility support and clean UI structure  
 
-Getting started
+---
 
-1. Install dependencies
+## 🛠️ Tech Stack
 
-```
-npm install
-```
+- React.js  
+- Vite  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
+- Web3Forms (Form handling)  
+- Vercel (Deployment)  
 
-2. Start dev server
+---
 
-```
-npm run dev
-```
+## 📂 Project Structure
 
-3. Build for production
+src/
+  components/  
+  assets/  
+  App.jsx  
+  main.jsx  
 
-```
-npm run build
-```
+---
 
-4. Preview production build
+## ⚙️ Installation & Setup
 
-```
-npm run preview
-```
+1. Clone the repository  
+git clone https://github.com/ShamiyaParveen/single-page-website.git  
 
-Environment variables
+2. Navigate to project folder  
+cd single-page-website  
 
-- The contact form currently uses a Web3Forms access key. For deployment, set the key as an environment variable named `VITE_WEB3FORMS_KEY` and access it in code with `import.meta.env.VITE_WEB3FORMS_KEY`.
+3. Install dependencies  
+npm install  
 
-Deployment (Vercel)
+4. Run the development server  
+npm run dev  
 
-- Connect your GitHub repo to Vercel.
-- Framework: Vite (auto-detected).
-- Build command: `npm run build` and Output directory: `dist`.
-- Add `VITE_WEB3FORMS_KEY` to Project Environment Variables in Vercel.
+---
 
-Project structure (important files)
+## 💡 What I Learned
 
-- `src/App.jsx` — app layout and component composition
-- `src/main.jsx` — app entry
-- `src/Component/*` — all UI components (Hero, Programs, About, Campus, Testimonial, Contact, Video-Player)
-- `vite.config.js`, `eslint.config.js`, `package.json`
+- Building fast applications using Vite  
+- Creating reusable components with React  
+- Handling form submissions without backend (Web3Forms)  
+- Implementing modals and improving UI interaction  
+- Writing responsive and accessible UI  
 
+---
 
-- Role: Frontend developer — implemented a responsive SPA using React + Vite, componentized the UI, integrated third-party form provider, and prepared the project for Vercel deployment.
-- Impact: Lightweight Vite build, clean component separation, and ready-to-deploy configuration.
+## 🙋‍♀️ Author
 
+Shamiya Parveen  
 
-License
+LinkedIn: https://www.linkedin.com/in/shamiya-parveen-123196232/  
+GitHub: https://github.com/ShamiyaParveen  
 
-This project is for demo/portfolio use. Replace or add a license if you plan to publish the template.
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐ on GitHub!
